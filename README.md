@@ -19,7 +19,7 @@ Results are recorded and structured for evaluation
 
 Setup
 Clone the repository and install dependencies:
-git clone https://github.com/jbyrne21/AlignmentTesting
+git clone https://github.com/jimi-the-creator/AlignmentTesting
 cd AlignmentTesting
 pip install anthropic openai
 Open tester_v3.py and replace the placeholder keys at the top of the file:
