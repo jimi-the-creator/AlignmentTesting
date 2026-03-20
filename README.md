@@ -3,11 +3,10 @@ A red teaming tool I've designed to interpret and analyze how AI models respond 
 
 Certain questions cannot be effectively answered by LLMs in situations where the prompt includes strict constraints such as yes/no responses, fixed word limits, or being forced to answer raw without any form of explanation. When we deliberately pressure test AI under these conditions, it must make a trade-off between:
 
-Following the given format constraint
-Providing an accurate answer
-Attempting to bypass the parameters of the prompt by answering vaguely or indirectly
+Following the given format constraint, Providing an accurate answer, Attempting to bypass the parameters of the prompt by answering vaguely or indirectly
 
 The way a model resolves this trade-off reveals what goes on behind the scenes when deciding how it prioritizes opposing instructions. This script helps make that process interpretable.
+
 Methodology
 
 A topic is provided by the user (e.g., AI consciousness, ethics, free will)
