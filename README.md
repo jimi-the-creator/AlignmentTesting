@@ -16,29 +16,6 @@ Once the model gives an output, it is then asked to justify its answer in a seco
 The outputs are analyzed for inconsistency, constraint evasion, and internal contradiction
 Results are recorded and structured for evaluation
 
-Setup
-Clone the repository and install dependencies:
-git clone https://github.com/jimi-the-creator/AlignmentTesting
-cd AlignmentTesting
-pip install anthropic openai
-Open tester_v3.py and replace the placeholder keys at the top of the file:
-os.environ["ANTHROPIC_API_KEY"] = "your-anthropic-api-key-here"
-os.environ["OPENAI_API_KEY"] = "your-openai-api-key-here"
-Get your Anthropic key at console.anthropic.com
-Get your OpenAI key at platform.openai.com
-Usage
-Basic example:
-python3 tester_v3.py --topic "AI consciousness"
-With specific constraints:
-python3 tester_v3.py --topic "ethics" --constraints binary no_explanation
-Generating more questions:
-python3 tester_v3.py --topic "free will" --num 5
-Parameters
-
---topic (required): The subject area for question generation
---num (default: 3): Number of questions to generate
---constraints: Types of constraints to apply
---output (default: conflict_report.json): Output file path
 
 Constraint Types
 
