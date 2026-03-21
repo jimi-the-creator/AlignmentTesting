@@ -1,5 +1,5 @@
 Constraint Conflict Tester
-A red teaming tool I've designed to interpret and analyze how AI models respond when pressure tested with extremely difficult prompts.
+A red teaming tool I've designed to interpret and analyze how AI models respond when pressure tested with extremely difficult prompts under certain constraints.
 
 Certain questions cannot be effectively answered by LLMs in situations where the prompt includes strict constraints such as yes/no responses, fixed word limits, or being forced to answer raw without any form of explanation. When we deliberately pressure test AI under these conditions, it must make a trade-off between:
 
